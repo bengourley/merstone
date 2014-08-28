@@ -1,6 +1,9 @@
 {
   "name": "merstone",
   "version": "0.1.0",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "description": "A data model",
   "main": "model.js",
   "scripts": {
