@@ -1,0 +1,17 @@
+{
+  "name": "merstone",
+  "version": "0.1.0",
+  "description": "A data model",
+  "main": "model.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Ben Gourley",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "hat": "0.0.3",
+    "piton-pipe": "0.0.4",
+    "lodash.clonedeep": "~2.4.1",
+    "lodash.assign": "~2.4.1"
+  }
+}
