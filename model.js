@@ -12,7 +12,7 @@ function Model(serviceLocator, attributes) {
   this.attributes = attributes || {}
   this._hooks = { preSet: createPipe() }
   this.cid = uid()
-  this.id = this.attributes._id || this.attributes.id || null
+  this.id = this.attributes._id || null
 }
 
 // Inherit from event emitter
@@ -113,6 +113,6 @@ Model.prototype.toJSON = function () {
 Model.prototype.reset = function (attrs) {
   if (!attrs) attrs = {}
   this.attributes = attrs
-  this.id = this.attributes._id || this.attributes.id || null
+  this.id = this.attributes._id || null
   this.emit('reset', this)
 }

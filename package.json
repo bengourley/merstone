@@ -7,7 +7,11 @@
   "description": "A data model",
   "main": "model.js",
   "scripts": {
-    "test": "npm test"
+    "lint": "jshint . --reporter=./node_modules/jshint-full-path/index.js",
+    "pretest": "npm run-script lint",
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- -R spec",
+    "posttest": "istanbul check-coverage && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
   },
   "author": "Ben Gourley",
   "license": "BSD-2-Clause",
@@ -16,5 +20,12 @@
     "piton-pipe": "0.0.4",
     "lodash.clonedeep": "~2.4.1",
     "lodash.assign": "~2.4.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.0",
+    "jshint": "^2.5.5",
+    "jshint-full-path": "^1.1.1",
+    "lodash.uniq": "^2.4.1",
+    "mocha": "^1.21.4"
   }
 }
