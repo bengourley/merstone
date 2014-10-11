@@ -86,6 +86,40 @@ function castNumbers(attributes, cb) {
 }
 ```
 
+## Extending Merstone for your own models
+
+Merstone doesn't do any fancy extend-y stuff, you just use built-in JS prototypal
+inheritence methods.
+
+```js
+module.exports = ClockModel
+
+var Model = require('merstone')
+
+function ClockModel(serviceLocator, attributes) {
+  // Call the model constructor
+  Model.apply(this, arguments)
+}
+
+// Set the object prototype
+ClockModel.prototype = Object.create(Model.prototype)
+
+// Now add custom methods to the new prototype
+
+ClockModel.prototype.tick = function () {
+  console.log('tick')
+}
+
+ClockModel.prototype.tock = function () {
+  console.log('tock')
+}
+```
+
+```js
+var ClockModel = require('./clock-model')
+  , m = new ClockModel(serviceLocator)
+```
+
 ## The name?
 I've made a bunch of MVC-like components. I named each one after villages on the
 [Isle of Wight](http://en.wikipedia.org/wiki/Isle_of_Wight) (where I live) beginning
