@@ -1,5 +1,7 @@
 # Merstone
 
+[![NPM](https://nodei.co/npm/merstone.png?compact=true)](https://nodei.co/npm/merstone/)
+
 [![Build Status](https://travis-ci.org/bengourley/merstone.svg)](https://travis-ci.org/bengourley/merstone)
 
 A data-model abstraction. This is a base class for models. You can construct one
