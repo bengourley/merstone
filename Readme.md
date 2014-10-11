@@ -1,5 +1,7 @@
 # Merstone
 
+[![Build Status](https://travis-ci.org/bengourley/merstone.svg)](https://travis-ci.org/bengourley/merstone)
+
 A data-model abstraction. This is a base class for models. You can construct one
 if all you want to do is observe some data, or you can extend it if you want that
 and more.
