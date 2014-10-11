@@ -14,7 +14,7 @@
     "prepublish": "npm test && npm prune"
   },
   "author": "Ben Gourley",
-  "license": "BSD-2-Clause",
+  "license": "ISC",
   "dependencies": {
     "hat": "0.0.3",
     "piton-pipe": "0.0.4",
