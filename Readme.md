@@ -81,6 +81,14 @@ function castNumbers(attributes, cb) {
 }
 ```
 
+## The name?
+I've made a bunch of MVC-like components. I named each one after villages one the
+[Isle of Wight](http://en.wikipedia.org/wiki/Isle_of_Wight) (where I live) beginning
+with the same letter as the thing it represents.
+
+See also [Ventnor views](https://github.com/bengourley/ventnor) and
+[Chale collections](https://github.com/bengourley/ventnor).
+
 ## Credits
 * [Ben Gourley](https://github.com/bengourley/)
 
