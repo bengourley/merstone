@@ -14,6 +14,9 @@ service oriented architecture, i.e you call `model.toJSON()` and pass that to a 
 for persistence. This allows greater flexibility, but still allows you to extend the
 models and build in behaviour like `save()` and `fetch()` should you wish.
 
+Merstone models inherit their eventy behaviour from node [event emitter](http://nodejs.org/api/events.html#events_class_events_eventemitter).
+
+
 ## Installation
 
 ```
