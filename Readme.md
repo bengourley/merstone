@@ -82,7 +82,7 @@ function castNumbers(attributes, cb) {
 ```
 
 ## The name?
-I've made a bunch of MVC-like components. I named each one after villages one the
+I've made a bunch of MVC-like components. I named each one after villages on the
 [Isle of Wight](http://en.wikipedia.org/wiki/Isle_of_Wight) (where I live) beginning
 with the same letter as the thing it represents.
 
