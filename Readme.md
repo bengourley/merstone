@@ -92,7 +92,7 @@ I've made a bunch of MVC-like components. I named each one after villages on the
 with the same letter as the thing it represents.
 
 See also [Ventnor views](https://github.com/bengourley/ventnor) and
-[Chale collections](https://github.com/bengourley/ventnor).
+[Chale collections](https://github.com/bengourley/chale).
 
 ## Credits
 * [Ben Gourley](https://github.com/bengourley/)
