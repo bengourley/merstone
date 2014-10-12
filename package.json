@@ -4,6 +4,10 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bengourley/merstone.git"
+  },
   "description": "A data model",
   "main": "model.js",
   "scripts": {
