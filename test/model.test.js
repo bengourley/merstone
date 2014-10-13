@@ -8,7 +8,7 @@ describe('model', function () {
 
     it('should create a new model', function () {
       var m = new Model()
-      assert.equal(m.__proto__, Model.prototype) // jshint ignore:line
+      assert(m instanceof Model)
     })
 
     it('should set initial attributes', function () {

@@ -15,7 +15,8 @@
     "pretest": "npm run-script lint",
     "test": "istanbul cover ./node_modules/.bin/_mocha -- -R spec",
     "posttest": "istanbul check-coverage && rm -rf coverage",
-    "prepublish": "npm test && npm prune"
+    "prepublish": "npm test && npm prune",
+    "browser-test": "zuul -- test/model.test.js"
   },
   "author": "Ben Gourley",
   "license": "ISC",
@@ -26,10 +27,12 @@
     "lodash.assign": "~2.4.1"
   },
   "devDependencies": {
+    "es5-shim": "^4.0.3",
     "istanbul": "^0.3.0",
     "jshint": "^2.5.5",
     "jshint-full-path": "^1.1.1",
     "lodash.uniq": "^2.4.1",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "zuul": "^1.11.2"
   }
 }
