@@ -4,5 +4,5 @@ node_js:
 script: npm run browser-test
 env:
   global:
-  - secure: 0W+LU2bxEnEFBkidlGQTDVY1rFjA6r521Ha+1Zq491w3vooMG4hs1v9vT4xD96KaYhs5rfQbsBzEAshGdxTC5pIFNM0RLJJXIp9xgYsm5bsMYr5rRbzIE8oIiqNUPWtd3ZDwEqtMRal0e0t+qlLJVT2L0VoQWiODIwZP9oSZg0w=
-  - secure: rvFa/cvPPD9YFW/lvdf/qkU3iGQC/7eJTjOgk/1aCXErWaYvOsdRbgeO6DkwkzWjWcTWWX4BPPDELsNjm8mqcEQGylR/xrK2GOVS92MHZzZSn+woOOn1TOC+yeBaEothKcpA05pmvGf9JbDjWVTbgVJUQw7hcRy/Xv+ezXGOxi4=
+  - secure: Ia3Pd+GMaJMzIff/LXicSpLwEhaclNlGdy3ZM9oLRlz0YMBwTUIDQoqvFDerjn3S/qJ6eCd8mZTFlXZrTZAa6Aa2Uv3M3TABABanHf0JBg7AZJQjtykLNxTsFy1ibFhvAEOq9fH4boa359mhs3U05AUxudyFp23xqyeHQvl8UfY=
+  - secure: tcmHyGOlC/ZaS775kF+gBBkYvnRxfRKG4Sb6WuuZFfUIsoYptBwgKNdq9siTduLhcEvA2g5oxaOtHPJT0r9Zpsoe8iuAQ7/KyOKOugJTlAwW6O1aN7njz8AbCFD36SgGgr5t1UJuto58DuROxTqfQPrNSSvSPI4p2cmA4AWVxv0=
