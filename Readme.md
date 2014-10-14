@@ -18,6 +18,17 @@ models and build in behaviour like `save()` and `fetch()` should you wish.
 
 Merstone models inherit their eventy behaviour from node [event emitter](http://nodejs.org/api/events.html#events_class_events_eventemitter).
 
+## Browser support
+
+The build status image above reflects the results of the tests being run in the following real browsers on SauceLabs:
+
+  - Chrome 34+
+  - Firefox 28+
+  - IE 8+
+  - Safari iOS5+
+
+If you need IE8 support you need to include [es5-shim](https://github.com/es-shims/es5-shim/blob/master/es5-shim.js)
+and [es5-sham](https://github.com/es-shims/es5-shim/blob/master/es5-sham.js) to polyfill the ES5 features that this module uses.
 
 ## Installation
 
